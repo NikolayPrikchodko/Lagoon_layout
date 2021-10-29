@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagoona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__blok">
+        <a href="" class="header__logo">
+          <img src="img/Lagoona.png" alt="Lagoona" >
+        </a>
+        <p class="header__nomer">+7 495 322 54 48 34</p>
+        <a href="" class="header__user-in">
+          <img src="img/strelka.png" alt="LK" class="header__strelka">Личный кабинет
+        </a>
+      </div>
+      <div class="header__blok header__blok_mod">
+        <nav>
+          <ul class="header__list">
+            <li class="header__ietem">
+              <a href="" class="header__link">О нас</a>
+            </li>
+            <li class="header__ietem">
+             <a href="" class="header__link">Услуги</a>
+            </li>
+            <li class="header__ietem">
+             <a href="" class="header__link">Преимущества</a>
+            </li>
+            <li class="header__ietem">
+             <a href="" class="header__link">Размещение</a>
+            </li>
+            <li class="header__ietem">
+             <a href="" class="header__link">Блог</a>
+            </li>
+            <li class="header__ietem">
+             <a href="" class="header__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__searh">
+         <input placeholder="Поиск" class="header__poisk">
+         <button class="header__searh-btn">
+          <img src="img/search.png" alt="поиск" class="header__seath-img">
+         </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="container section-hero__container">
+        <div>
+          <h2 class="h2 ">Быстрая бронь</h2>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+            <input type="text" name="city" placeholder="Город" required class="section-hero__input">
+            <input type="text" name="nomer" placeholder="Категория номера" class="section-hero__input">
+            <input type="date" name="date" class="section-hero__input">
+            <input type="text" name="night" placeholder="Количество ночей" class="section-hero__input">
+            <input type="number" name="gosti" placeholder="Количество гостей" class="section-hero__input">
+            <button type="submit" class="section-hero__btn">
+              Найти номер
+            </button>
+            <div class="section-hero__position">
+              <a href="" class="section-hero__color">
+              9 756
+              </a>
+              <div class="section-hero__gray">предложений доступно</div>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h2 class="h2">Спецпредложения</h2>
+          <div class="section-hero__sale">
+            <h2 class="section-hero__h2">Номера категории люкс</h2>
+            <p class="section-hero__text">от 5 000 р</p>
+            <a href="" class="section-hero__spec-btn">Подробнее <img src="img/ugolok.png" alt="ugolok" class="ugolok ugolok_spec"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-onas">
+      <div class="container">
+        <h2 class="h2 h2__onas">О нас</h2>
+        <p class="section-onas__text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="h2 h2__uslugi">Услуги</h2>
+        <ul>
+          <li class="section-uslugi__item">
+            <div class="section-uslugi__img">
+              <img src="img/uslugi1.jpg" alt="uslugi">
+            </div>
+            <a href="" class="section-usligi__btn">Экслклюзивное обслуживание<img src="img/ugolok.png" alt="ugolok" class="ugolok ugolok__uslug"></a>
+            <p class="section-uslugi__text">
+              Равным образом постоянный количественный рост и сфера нашей активности
+            </p>
+          </li>
+          <li class="section-uslugi__item">
+            <div class="section-uslugi__img">
+              <img src="img/uslugi2.jpg" alt="foto">
+            </div>
+            <a href="" class="section-usligi__btn">Аренда банкетных залов<img src="img/ugolok.png" alt="ugolok" class="ugolok ugolok__uslug"></a>
+            <p class="section-uslugi__text">
+              Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.
+            </p>
+          </li>
+          <li class="section-uslugi__item">
+            <div class="section-uslugi__img">
+              <img src="img/uslugi3.jpg" alt="foto">
+            </div>
+            <a href="" class="section-usligi__btn">Сауны, басейны, бани, фитнес-залы<img src="img/ugolok.png" alt="ugolok" class="ugolok ugolok__uslug"></a>
+            <p class="section-uslugi__text">
+              Не следует, однако забывать, что начало повседневной работы по формированию позиции
+            </p>
+          </li>
+          <li class="section-uslugi__item">
+            <div class="section-uslugi__img">
+              <img src="img/uslugi4.jpg" alt="foto">
+            </div>
+            <a href="" class="section-usligi__btn">Охроняемые автомобильные стоянки<img src="img/ugolok.png" alt="ugolok" class="ugolok ugolok__uslug"></a>
+            <p class="section-uslugi__text">
+              Не следует, однако забывать, что начало повседневной работы по формированию позиции
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="h2 h2__plus">Преимущества</h2>
+        <ul>
+          <li class="section-plus__item">
+            <div class="section-plus__icon1 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Идейные соображения высшего порядка, а также постоянный количественный рост
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon2 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Значимость этих проблем настолько очевидна, что вопрос остается открытым
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon3 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Таким образом реализация плановых заданий играет важную роль для понимания
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon4 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Повседневная практика показывает, что сложившаяся структура организации
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon5 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Равным образом рамки и место обучения кадров способствует подготовки сотрудника
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon6 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon7 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Повседневная практика показывает, что дальнейшее развитие различных форм
+            </p>
+          </li>
+          <li class="section-plus__item">
+            <div class="section-plus__icon8 section-plus__icon"></div>
+            <p class="section-plus__text">
+              Значимость этого настолько очевидна, что консультация наших экспертов помогает
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="h2 h2__mesto">Размещение</h2>
+        <ul>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie1.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span>  4 698 р <span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 4 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona española
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie2.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span> 5 148 р<span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 4 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona son tipical
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie3.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span> 6 254 р<span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 5 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona de la guerra
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie4.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span> 6 320 р<span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 5 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona mentira piadosa
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie5.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span> 6 457 р<span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 4 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona empujira la creatividad
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie6.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span> 6 490 р<span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 4 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona el retorno
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie7.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais"><span class="text-grey">oт</span> 6 505 р<span class="night">/ ночь</span></div>
+              <div>
+                <img src="img/star_gold.png" alt="Рейтинг номера 5 из 5" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+                <img src="img/star_gold.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name">
+              Lagoona enfermo termino
+            </div>
+            <div class="section-mesto__gorod">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div>
+              <img src="img/rasmechenie8.jpg" alt="foto">
+            </div>
+            <div class="section-mesto__svesda">
+              <div class="section-mesto__prais section-mesto-mesto"><span class="text-grey">oт</span> 6 824 р<span class="night">/ ночь</span></div>
+              <div class="star-mesto section-mesto-mesto">
+               <img src="img/star_gold.png" alt="Рейтинг номера 4 из 5" class="star">
+               <img src="img/star_gold.png" alt="" class="star">
+               <img src="img/star_gold.png" alt="" class="star">
+               <img src="img/star_gold.png" alt="" class="star">
+               <img src="img/star.png" alt="" class="star">
+              </div>
+            </div>
+            <div class="section-mesto__name section-mesto-mesto">
+              Lagoona suerte siguió siempre
+            </div>
+            <div class="section-mesto__gorod section-mesto-mesto">
+              Барселона, Испания
+            </div>
+            <button class="section-mesto__btn">Номера</button>
+          </li>
+          <li class="section-mesto__item">
+            <div class="section-mesto__item_bigimg">
+              <a href="" class="section-mesto__vsevar ">Посмотреть все варианты<img src="img/ugolok_bel.png" alt="ugolok" class="ugolok ugolok__icon"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="h2">Контакты</h2>
+        <div class="section-kontakt">
+          <div class="section-kontakt__knt">
+            <ul class="section-kontakt__list">
+              <li class="section-kontakt__item">
+                <div class="section-kontakt__h">
+                  Адрес
+                </div>
+                <div class="section-kontakt__text">
+                  Москва, улица Юности, дом 5 строение 4, офис 2
+                </div>
+              </li>
+              <li class="section-kontakt__item">
+                <div class="section-kontakt__h">
+                  Телефоны
+                </div>
+                <div class="section-kontakt__tel">
+                  <a href="tel:+74995356434">+7 (499) 535-64-34</a>
+                  <a href="tel:+74950050544">+7 (495) 005-05-44</a>
+                </div>
+              </li>
+              <li class="section-kontakt__item">
+                <div class="section-kontakt__h">
+                  E-mail
+                </div>
+                <div class="section-kontakt__email">
+                  <a href="mailto:lg.oona@mail.ru">
+                    <span class="section-email">lg.oona@mail.ru</span>
+                  </a>
+                  <span class="dop-text"> по вопросам бронирования</span>
+                  <a href="mailto:hotels.ln@mail.ru">
+                    <span class="section-kontakt__email">hotels.ln@mail.ru</span>
+                  </a>
+                  <span class="dop-text"> по вопросам сотрудничества</span>
+                </div>
+              </li>
+              <li class="section-kontakt__item">
+                <div class="section-kontakt__h">
+                  График
+                </div>
+                <div class="section-kontakt__text">
+                  Понедельник - пятница, с 10:00 до 19:00
+                </div>
+              </li>
+            </ul>
+            <button class="section-kontakt__btn">Постоить маршрут</button>
+          </div>
+          <div class="section-kontakt__form">
+            <h2 class="section-kontakt__h2">Остались вопросы?</h2>
+            <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+              <input type="text" name="name" placeholder="Имя" class="section-kontakt__input">
+              <input type="tel" name="tel" placeholder="+7" required class="section-kontakt__input">
+              <textarea name="message" placeholder="Сообщение..." cols="25" rows="10" class="message section-kontakt__input"></textarea>
+              <div class="dop-text">Отправляя свои данные вы соглашаетесь с <span class="dop-text__color">Политикой конфиденциальности</span></div>
+              <button class="section-kontakt__btn_vopros">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <ul class="footer__list">
+          <li class="footer__item footer__left">
+            <div class="footer__text-left">© 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»</div>
+            <div class="footer__text-left">Представленная на сайте информация носит справочный характер и не является публичной офертой</div>
+            <a href="" class="footer__a-left">Пользовательское соглашение</a>
+          </li>
+          <li class="footer__item">
+            <div class="footer__text-left footer__adres">11710, улица Юности, дом 5 строение 4, офис 2</div>
+            <div><a href="tel:+74995356434" class="footer__a-left">+7 (499) 535-64-34</a></div>
+            <div class="footer__adres"><a href="tel:+74950050544" class="footer__a-left">+7 (495) 005-05-44</a></div>
+            <div><a href="mailto:lg.oona@mail.ru" class="footer__a-left">lg.oona@mail.ru</a></div>
+            <div><a href="mailto:hotels.ln@mail.ru" class="footer__a-left">hotels.ln@mail.ru</a></div>
+          </li>
+          <li class="footer__item">
+            <ul class="footer__icon">
+              <li class="footer__item_right">
+                <a href="" class="social-icon sova"></a>
+              </li>
+              <li class="footer__item_right">
+                <a href="" class="social-icon twitter"></a>
+              </li>
+              <li class="footer__item_right">
+                <a href="" class="social-icon facebooc"></a>
+              </li>
+              <li class="footer__item_right">
+                <a href="" class="social-icon VK"></a>
+              </li>
+              <li class="footer__item_right">
+                <a href="" class="social-icon google"></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <span class="footer__solnce"></span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
